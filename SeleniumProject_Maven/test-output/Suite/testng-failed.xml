@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.autodesk.GenericUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="createContactWithoutLastName"/>
+          <include name="closeDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutofApp"/>
+          <include name="ConnectDB"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57683" started-at="2021-09-21T16:31:32Z" finished-at="2021-09-21T16:32:29Z">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="TC_01_CreateContactWithoutLastNameTest.createContactWithoutLastName()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="createContactWithoutLastName" class="com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test name="Default test" duration-ms="57683" started-at="2021-09-21T16:31:32Z" finished-at="2021-09-21T16:32:29Z">
+      <class name="com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest">
+        <test-method status="PASS" signature="ConnectDB()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="ConnectDB" is-config="true" duration-ms="36" started-at="2021-09-21T16:31:31Z" finished-at="2021-09-21T16:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectDB -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="launchBrowser" is-config="true" duration-ms="11599" started-at="2021-09-21T16:31:32Z" finished-at="2021-09-21T16:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="loginToApp" is-config="true" duration-ms="16187" started-at="2021-09-21T16:31:43Z" finished-at="2021-09-21T16:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createContactWithoutLastName()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="createContactWithoutLastName" duration-ms="26139" started-at="2021-09-21T16:31:59Z" finished-at="2021-09-21T16:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithoutLastName -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="logoutofApp" is-config="true" duration-ms="3501" started-at="2021-09-21T16:32:26Z" finished-at="2021-09-21T16:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="closeBrowser" is-config="true" duration-ms="208" started-at="2021-09-21T16:32:29Z" finished-at="2021-09-21T16:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest@73ad2d6]" name="closeDB" is-config="true" duration-ms="1" started-at="2021-09-21T16:32:29Z" finished-at="2021-09-21T16:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

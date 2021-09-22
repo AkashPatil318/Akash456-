@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+  <test thread-count="3" name="Testrunner_1" parallel="tests">
+    <classes>
+      <class name="com.crm.Assignments.TC_02_CreateContactwithLastNameTest"/>
+    </classes>
+     </test> <!-- Test -->
+    <test thread-count="3" name="Testrunner_2" parallel="tests">
+    <classes>
+      <class name="com.crm.Assignments.TC_01_CreateContactWithoutLastNameTest"/>
+    </classes>
+     </test> <!-- Test -->
+    <test thread-count="3" name="Testrunner_3" parallel="tests">
+    <classes>
+      <class name="com.crm.Assignments.TC_03_CreateContactwithChooseFile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
